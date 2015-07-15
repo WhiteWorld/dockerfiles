@@ -28,3 +28,6 @@ RUN echo "y" | android update sdk -u -a --filter platform-tools,android-21,build
 # Set /android as code directory
 WORKDIR /android
 # RUN git clone ...
+
+# Gradle
+# RUN gradle assembleDebug
